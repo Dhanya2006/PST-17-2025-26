@@ -1,20 +1,20 @@
 /******************************************************************************
 
 Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 public class Main {
     public static void main(String[] args) {
-        int left = 100;
-        int right = 50;
-        System.out.println("left == right : " + (left == right));
-        System.out.println("left != right : " + (left != right));
-        System.out.println("left > right  : " + (left > right));
-        System.out.println("left < right  : " + (left < right));
-        System.out.println("left >= right : " + (left >= right));
-        System.out.println("left <= right : " + (left <= right));
+        int num1 = 20;
+        int num2 = 10;
+        System.out.println("num1 == num2 :" +(num1==num2));
+        System.out.println("num1 += num2 :" +(num1+=num2));
+        System.out.println("num1 -= num2 :" +(num1-=num2));
+        System.out.println("num1 *= num2 :" +(num1*=num2));
+        System.out.println("num1 /= num2 :" +(num1/=num2));
+        System.out.println("num1 %= num2 :" +(num1%=num2));
     }
 }
