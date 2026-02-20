@@ -1,4 +1,4 @@
-package OOPSCONCEPT;
+package ASCIIFUNCTION;
 import java.util.Scanner;
 public class Asciicharacter {
 
